@@ -1,13 +1,17 @@
 "use client";
-import { useState } from "react";
+import React, { useState } from "react";
+
 
 export default function Chat() {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
 
-  async function sendMessage(e) {
+  async function sendMessage(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     if (!input.trim()) return;
+    // ...rest stays the same
+  }
+  
 
     const userMsg = { role: "user", content: input };
     setMessages([...messages, userMsg]);
