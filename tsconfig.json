@@ -1,26 +1,31 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    /* Basic Settings */
+    "target": "esnext",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
     "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
     "module": "esnext",
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
-    "paths": {
-      "@/*": ["./*"]
-    }
+    /* Vercel / Next.js specific */
+    "types": ["@types/node"],
+    /* Optional: improve editor behaviour */
+    "skipDefaultLibCheck": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "global.d.ts"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "global.d.ts"
+  ],
+  "exclude": ["node_modules"]
 }
