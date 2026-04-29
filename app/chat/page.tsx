@@ -25,8 +25,8 @@ export default function ChatPage() {
     const { reply } = await res.json();
     setMessages((prev: any[]) => [...prev, { role: "assistant", content: reply }]);
   }
-    }, 600);
-  }
+    } 600;
+  
 
   return (
     <main className="flex flex-col items-center justify-start min-h-screen pt-10 px-4">
@@ -85,4 +85,4 @@ export default function ChatPage() {
       </p>
     </main>
   );
-}
+
