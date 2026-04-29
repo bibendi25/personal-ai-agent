@@ -1,3 +1,5 @@
+import profile from "../../../data/profile.json";
+
 import { NextResponse } from "next/server";
 
 export async function POST(req: Request) {
@@ -9,12 +11,14 @@ export async function POST(req: Request) {
   const prompt = [
     {
       role: "system",
-      content: `You are an AI acting as Alex Morgan, an experienced
-                UX Designer and Information Architect. 
-                Speak in the first person, be concise, and use only real information provided.`,
+      content: `You are an AI representing Ed Birchmore, a UX designer and information architect.
+  Use the factual data below; if a question isn't answered by it, say you will confirm later.
+  Profile data: ${JSON.stringify(profile)}
+  `
     },
-    ...conversation,
+    ...conversation
   ];
+  
 
   const res = await fetch("[api.anthropic.com](https://api.anthropic.com/v1/messages)", {
     method: "POST",
