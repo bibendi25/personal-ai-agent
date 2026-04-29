@@ -10,22 +10,21 @@ export default function ChatPage() {
   async function sendMessage(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     if (!input.trim()) return;
-
+  
     const userMsg = { role: "user", content: input };
     setMessages([...messages, userMsg]);
     setInput("");
-
-    // Simulated AI reply
-    setTimeout(() => {
-      const res = await fetch("/api/chat", {
-  method: "POST",
-  headers: { "Content-Type": "application/json" },
-  body: JSON.stringify({ messages: [...messages, userMsg] }),
-});
-
-const { reply } = await res.json();
-setMessages((prev: any[]) => [...prev, { role: "assistant", content: reply }]);
-
+  
+    // Call the API directly
+    const res = await fetch("/api/chat", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ messages: [...messages, userMsg] }),
+    });
+  
+    const { reply } = await res.json();
+    setMessages((prev: any[]) => [...prev, { role: "assistant", content: reply }]);
+  }
     }, 600);
   }
 
