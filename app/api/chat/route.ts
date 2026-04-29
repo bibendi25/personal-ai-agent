@@ -14,6 +14,7 @@ Profile data: ${JSON.stringify(profile)}
     },
     ...conversation
   ];
+  console.log("Claude request:", prompt);
   const res = await fetch("[api.anthropic.com](https://api.anthropic.com/v1/messages)", {
     method: "POST",
     headers: {
