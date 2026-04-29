@@ -2,8 +2,8 @@ import "./globals.css";
 import React, { ReactNode } from "react";
 
 export const metadata = {
-  title: "Alex Morgan – AI Career Assistant",
-  description: "A personal AI avatar introduction.",
+  title: "Ed Birchmore – AI Career Assistant",
+  description: "My personal AI avatar introduction.",
 };
 
 export default function RootLayout({
