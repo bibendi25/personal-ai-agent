@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center h-screen text-center px-6">
       <Image src="/avatar.png" width={150} height={150} alt="Avatar" className="rounded-full shadow-md" />
-      <h1 className="text-3xl font-bold mt-5">Hi, I’m Ed Birchmore</h1>
+      <h1 className="text-3xl font-bold mt-5">Hi, I’m Ed Birchmore's AI Avatar</h1>
       <p className="mt-3 text-gray-600 max-w-lg">
         PUT SOME COPY HERE – one‑sentence elevator pitch about what you do and what you’re exploring.
       </p>
