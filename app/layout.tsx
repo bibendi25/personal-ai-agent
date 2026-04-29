@@ -6,6 +6,7 @@ export const metadata = {
   description: "A personal AI avatar introduction.",
 };
 
+// 👇 children is explicitly typed as ReactNode
 export default function RootLayout({
   children,
 }: {
