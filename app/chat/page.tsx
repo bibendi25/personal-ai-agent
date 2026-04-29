@@ -81,7 +81,7 @@ export default function ChatPage() {
       <p className="text-gray-400 text-xs mt-6 text-center">
         PUT SOME COPY HERE – example: “Responses currently simulated. Live AI
         version coming soon.”
-      </p>
+      </p> 
     </main>
   );
 }
