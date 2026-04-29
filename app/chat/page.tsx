@@ -1,22 +1,25 @@
 "use client";
-
 import React, { useState } from "react";
-
+/**
+ * Chat page for your AI Career Assistant
+ * - All braces properly balanced for Vercel build.
+ * - Temporary local echo until backend connection.
+ */
 export default function ChatPage() {
+  // Chat state
   const [messages, setMessages] = useState<
     { role: "user" | "assistant"; content: string }[]
   >([]);
   const [input, setInput] = useState("");
-
+  // Handle form submission
   async function sendMessage(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     if (!input.trim()) return;
-
+    // Add user message
     const userMsg = { role: "user", content: input };
     setMessages((prev) => [...prev, userMsg]);
     setInput("");
-
-    // Simulated bot reply
+    // Simulate AI reply
     setTimeout(() => {
       const reply = {
         role: "assistant",
@@ -25,17 +28,15 @@ export default function ChatPage() {
       };
       setMessages((prev) => [...prev, reply]);
     }, 600);
-  } // 👈 this brace closes sendMessage properly
-
-  // Component output starts here
+  }
+  // ✅ return sits *outside* sendMessage
   return (
     <main className="flex flex-col items-center justify-start min-h-screen pt-10 px-4">
       <h2 className="text-2xl font-semibold mb-4">AI Career Chat</h2>
       <p className="max-w-md text-gray-500 mb-6 text-center">
-        PUT SOME COPY HERE – for example: “Ask about my background or design
-        philosophy.”
+        PUT SOME COPY HERE – For example: “Ask about my background,
+        projects, or design philosophy.”
       </p>
-
       {/* Chat window */}
       <div className="w-full max-w-2xl border rounded-lg p-4 h-96 overflow-y-auto bg-white shadow">
         {messages.length === 0 && (
@@ -62,7 +63,6 @@ export default function ChatPage() {
           </div>
         ))}
       </div>
-
       {/* Input box */}
       <form onSubmit={sendMessage} className="flex w-full max-w-2xl mt-4">
         <input
@@ -78,7 +78,6 @@ export default function ChatPage() {
           Send
         </button>
       </form>
-
       <p className="text-gray-400 text-xs mt-6 text-center">
         PUT SOME COPY HERE – example: “Responses currently simulated. Live AI
         version coming soon.”

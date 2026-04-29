@@ -2,7 +2,11 @@
   "compilerOptions": {
     /* Basic Settings */
     "target": "esnext",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -17,15 +21,25 @@
     "jsx": "preserve",
     "incremental": true,
     /* Vercel / Next.js specific */
-    "types": ["@types/node"],
+    "types": [
+      "@types/node"
+    ],
     /* Optional: improve editor behaviour */
-    "skipDefaultLibCheck": true
+    "skipDefaultLibCheck": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "global.d.ts"
+    "global.d.ts",
+    ".next/types/**/*.ts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }
