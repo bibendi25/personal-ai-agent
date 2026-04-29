@@ -17,12 +17,15 @@ export default function ChatPage() {
 
     // Simulated AI reply
     setTimeout(() => {
-      const reply = {
-        role: "assistant",
-        content:
-          "👋 PUT AI REPLY HERE – this will soon be powered by Claude! For now I'm just acknowledging your message.",
-      };
-      setMessages((prev) => [...prev, reply]);
+      const res = await fetch("/api/chat", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({ messages: [...messages, userMsg] }),
+});
+
+const { reply } = await res.json();
+setMessages((prev: any[]) => [...prev, { role: "assistant", content: reply }]);
+
     }, 600);
   }
 
