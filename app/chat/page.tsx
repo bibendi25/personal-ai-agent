@@ -3,30 +3,28 @@
 import React, { useState } from "react";
 
 export default function ChatPage() {
-  // 👇 use 'any' temporarily so TypeScript cannot block the build
   const [messages, setMessages] = useState<any[]>([]);
   const [input, setInput] = useState("");
 
+  // The handler itself is async — so await is allowed
   async function sendMessage(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     if (!input.trim()) return;
-  
+
     const userMsg = { role: "user", content: input };
-    setMessages([...messages, userMsg]);
+    setMessages((prev) => [...prev, userMsg]);
     setInput("");
-  
-    // Call the API directly
+
+    // ✅ Directly await the API call (no setTimeout wrapper)
     const res = await fetch("/api/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ messages: [...messages, userMsg] }),
     });
-  
+
     const { reply } = await res.json();
-    setMessages((prev: any[]) => [...prev, { role: "assistant", content: reply }]);
+    setMessages((prev) => [...prev, { role: "assistant", content: reply }]);
   }
-    } 600;
-  
 
   return (
     <main className="flex flex-col items-center justify-start min-h-screen pt-10 px-4">
@@ -36,7 +34,6 @@ export default function ChatPage() {
         projects, or design philosophy.”
       </p>
 
-      {/* Chat window */}
       <div className="w-full max-w-2xl border rounded-lg p-4 h-96 overflow-y-auto bg-white shadow">
         {messages.length === 0 && (
           <p className="text-center text-gray-400 text-sm">
@@ -63,7 +60,6 @@ export default function ChatPage() {
         ))}
       </div>
 
-      {/* Input box */}
       <form onSubmit={sendMessage} className="flex w-full max-w-2xl mt-4">
         <input
           className="flex-1 border px-3 py-2 rounded-l-md focus:outline-none"
@@ -85,4 +81,4 @@ export default function ChatPage() {
       </p>
     </main>
   );
-
+}
