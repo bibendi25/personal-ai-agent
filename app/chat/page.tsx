@@ -6,7 +6,7 @@ export default function ChatPage() {
   const [messages, setMessages] = useState<any[]>([]);
   const [input, setInput] = useState("");
 
-  // The handler itself is async — so await is allowed
+  // one async function only
   async function sendMessage(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     if (!input.trim()) return;
@@ -15,7 +15,7 @@ export default function ChatPage() {
     setMessages((prev) => [...prev, userMsg]);
     setInput("");
 
-    // ✅ Directly await the API call (no setTimeout wrapper)
+    // ✅ make the real API call directly
     const res = await fetch("/api/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
