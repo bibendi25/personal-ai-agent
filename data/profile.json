@@ -14,6 +14,285 @@
     "AI-aware product thinker",
     "Regulated systems UX consultant"
   ],
+  "job_application_insights": {
+    "purpose": "This section helps Ed's AI career agent answer recruiter and hiring-manager questions about role fit, transferable experience, application positioning and evidence. It is based on recurring themes from Ed's CV, portfolio, testimonials and previous tailored covering letters.",
+    "target_roles": [
+      "Senior UX Consultant",
+      "Senior UX Designer",
+      "Lead UX Designer",
+      "Senior Product Designer",
+      "UX Architect",
+      "Information Architect",
+      "Experience Designer",
+      "Interaction Designer",
+      "UX Strategy Consultant",
+      "Complex Systems UX Consultant",
+      "AI-aware UX and Product Consultant",
+      "Digital Transformation UX Lead",
+      "Product Designer for B2B SaaS, enterprise, data-rich or regulated systems"
+    ],
+    "best_fit_environments": [
+      "Complex enterprise systems",
+      "Financial services and regulated industries",
+      "B2B SaaS and data-rich platforms",
+      "Public sector and GDS-aligned service design environments where the evidence supports it",
+      "Automotive and mobility experiences involving digital and physical touchpoints",
+      "Large-scale website ecosystems requiring information architecture, accessibility and continuous improvement",
+      "Legacy system transformation and migration programmes",
+      "Products or services where information architecture, clarity, usability and stakeholder alignment are critical",
+      "Organisations exploring practical, human-centred uses of AI in product and service design",
+      "Small or mid-sized product teams that need a senior designer who can work strategically and hands-on"
+    ],
+    "core_positioning_messages": [
+      "Ed is strongest where products, systems, people and business constraints are complex.",
+      "Ed combines senior UX strategy, information architecture, product design and hands-on prototyping.",
+      "Ed's career journey from QA and testing into Business Analysis, Information Architecture and UX gives him a rare ability to connect user needs, technical feasibility and business requirements.",
+      "Ed is highly effective at writing clear specifications, shaping requirements and communicating with developers, stakeholders and end users.",
+      "Ed translates unclear, fragmented or technical requirements into clear journeys, prototypes, hypotheses and delivery-ready design direction.",
+      "Ed works well with senior stakeholders, product teams, engineers, marketers, analysts and content teams because he can connect user needs, business goals and technical constraints.",
+      "Ed brings practical AI literacy to UX work, using AI to accelerate thinking, challenge assumptions, support ideation and improve workflows while keeping human-centred design central.",
+      "Ed is particularly relevant where trust, clarity, control, accessibility, usability and measurable improvement matter.",
+      "Ed can operate strategically, but is also hands-on with research, flows, IA, wireframes, prototypes, testing, documentation and developer handoff."
+    ],
+    "gold_standard_cover_letter_pattern": {
+      "summary": "For recruiter-style answers, the agent should draw on Ed's gold standard application structure: QA/testing foundations, Business Analysis, IA/UX evolution, current UX process, collaboration, ownership and evidence.",
+      "core_narrative": [
+        "Ed's career began in Quality Assurance and testing, where he developed a strong eye for usability, technical precision and detail.",
+        "He later moved into Business Analysis, shaping user requirements, translating complex needs into actionable documentation and bridging conversations between stakeholders and technical teams.",
+        "Those foundations evolved naturally into Information Architecture and UX/Product Design, where his strength lies in aligning business and user/customer requirements.",
+        "Ed typically audits current offerings, reviews competitor and opposition approaches, conducts or uses user research, then workshops solutions with design, technology and business teams.",
+        "Where useful, Ed creates personas, scenarios, user flows and journeys to form, test and refine design hypotheses.",
+        "Ed enjoys applying existing brand and design guidelines into prototypes, using hand sketching, Figma or Axure depending on what is most pragmatic.",
+        "When prototypes require more functional behaviour or conditional logic, Axure is particularly relevant to Ed's process.",
+        "Ed often translates data insights and usability findings into practical, measurable improvements, including conversion-rate optimisation where relevant.",
+        "Ed is experienced working with marketers, content teams, analysts, developers, product owners, engineers and senior stakeholders.",
+        "Ed is particularly skilled at mapping complex flows and simplifying them into more intuitive, engaging and accessible experiences."
+      ],
+      "preferred_tone": [
+        "Professional but human",
+        "Confident without overclaiming",
+        "Evidence-led",
+        "Plain English",
+        "Slightly conversational when writing recruiter notes or LinkedIn messages",
+        "More formal and structured for application forms or senior stakeholder contexts"
+      ]
+    },
+    "common_recruiter_questions": [
+      {
+        "question": "What kind of UX role is Ed best suited to?",
+        "answer_guidance": "Position Ed as a senior UX consultant, UX architect, product designer or experience design lead suited to complex systems, regulated services, digital transformation, information architecture and AI-aware product work."
+      },
+      {
+        "question": "Can Ed handle complex enterprise or regulated systems?",
+        "answer_guidance": "Use HSBC Global Corporate Payments, Barclays/Barclaycard, Aviva, Lloyds-related experience where supported, Skills Funding Agency and enterprise IA work as evidence."
+      },
+      {
+        "question": "Does Ed have stakeholder management experience?",
+        "answer_guidance": "Use HSBC C-suite and senior stakeholder work, Barclays/Barclaycard strategic review, Aviva partner work, Mercedes-Benz strategy work and testimonials from Caroline Thomas, Tim Wilmot and Sarah Roberts."
+      },
+      {
+        "question": "Can Ed work in Agile or Lean environments?",
+        "answer_guidance": "Use Barclays Agile/Lean UX process work, Pearson Agile testimonial from Tim Hopkins, and Ed's iterative prototyping and testing approach."
+      },
+      {
+        "question": "Is Ed hands-on or strategic?",
+        "answer_guidance": "Position Ed as both. He can shape UX strategy and stakeholder direction, but also creates user journeys, IA, wireframes, Figma and Axure prototypes, test scripts, design documentation and developer-ready artefacts."
+      },
+      {
+        "question": "What makes Ed different from other UX consultants?",
+        "answer_guidance": "Highlight his combination of QA/testing roots, Business Analysis, Information Architecture, complex systems UX, stakeholder confidence, hands-on prototyping, AI literacy and the Lowestoft to Land's End walk as evidence of resilience and self-directed delivery."
+      },
+      {
+        "question": "How does Ed use AI in his work?",
+        "answer_guidance": "Explain that Ed uses AI to accelerate thinking, challenge assumptions, support ideation, improve content and application workflows, and demonstrate AI-enabled career/product experiences. Emphasise that he sees AI as a support to human-centred design, not a replacement for clarity, structure, usability and trust."
+      },
+      {
+        "question": "Can Ed work in a sector where he has no direct background?",
+        "answer_guidance": "Use the transferable-systems positioning: Ed's core skill is making complex systems intuitive and accessible. He can transfer that across sectors when the problem involves users, workflows, content, data, service journeys, accessibility or stakeholder alignment."
+      },
+      {
+        "question": "What evidence shows Ed can deliver outcomes?",
+        "answer_guidance": "Use the Barclaycard £150m saving, SRF award-winning redesign, HSBC payments transformation, La Casa Shambala conversion-focused redesign, Jewzy.TV platform/film festival launch and the L2L walking project."
+      }
+    ],
+    "role_requirement_mapping": [
+      {
+        "requirement": "Information Architecture",
+        "evidence": [
+          "Mercedes-Benz IA review and customer journey work",
+          "SRF national broadcaster redesign",
+          "La Casa Shambala site structure and booking-flow redesign",
+          "Pearson Education eCommerce and SSO work",
+          "Earlier IA work across ITV, Nationwide, British Airways, BUPA and other clients"
+        ]
+      },
+      {
+        "requirement": "Complex workflow design",
+        "evidence": [
+          "HSBC Global Corporate Payments",
+          "Barclaycard ID&V",
+          "Skills Funding Agency process rationalisation",
+          "Enterprise and regulated-sector UX work",
+          "Data-rich and operational workflow work across finance, public sector and media"
+        ]
+      },
+      {
+        "requirement": "Financial services and regulated environments",
+        "evidence": [
+          "HSBC Global Corporate Payments",
+          "Barclays and Barclaycard",
+          "Aviva Strategic Partnerships",
+          "Lloyds Bank and other financial-services experience from earlier career",
+          "Experience balancing business, compliance, technical and user needs"
+        ]
+      },
+      {
+        "requirement": "Stakeholder management",
+        "evidence": [
+          "HSBC senior and C-suite stakeholder work",
+          "Barclays and Barclaycard strategic programme review",
+          "Aviva Strategic Partnerships",
+          "Mercedes-Benz strategic IA and journey work",
+          "Testimonials from Caroline Thomas, Tim Wilmot and Sarah Roberts"
+        ]
+      },
+      {
+        "requirement": "Research and testing",
+        "evidence": [
+          "La Casa Shambala live user testing using Fireflies.ai",
+          "Pearson Italia user testing with parents in Milan",
+          "Mercedes-Benz personas, scenarios and journey validation",
+          "Barclaycard proposition testing and strategic review",
+          "QA/testing background before moving into BA, IA and UX"
+        ]
+      },
+      {
+        "requirement": "Prototyping",
+        "evidence": [
+          "Figma prototypes for La Casa Shambala",
+          "HSBC Axure payment prototypes",
+          "Jewzy.TV Axure prototype",
+          "Barclaycard ID&V conceptual prototype",
+          "Use of Axure when functional prototypes require conditional logic or more complex interaction behaviour",
+          "Use of hand sketching, Figma or Axure depending on what is pragmatic"
+        ]
+      },
+      {
+        "requirement": "Design systems and consistency",
+        "evidence": [
+          "Experience applying existing brand and design guidelines into prototypes",
+          "Design-system and style-guide contribution across enterprise, product and website work",
+          "Figma component-based design work",
+          "Cross-platform consistency across web, mobile and operational systems"
+        ]
+      },
+      {
+        "requirement": "AI literacy",
+        "evidence": [
+          "Personal AI Career Agent built using ChatGPT-assisted development, Next.js, GitHub, StackBlitz, Vercel and the Anthropic Claude API",
+          "AI-enhanced UX workflows for CV tailoring, job applications, portfolio structuring and career storytelling",
+          "Use of AI to accelerate thinking, challenge assumptions and support decision-making while maintaining human-centred design principles",
+          "Understanding that AI should support trust, clarity, usability and user control rather than replace human-centred design"
+        ]
+      },
+      {
+        "requirement": "Physical and digital touchpoints",
+        "evidence": [
+          "Barclaycard ID&V work involving a proposed physical bank card and digital alternatives",
+          "Mercedes-Benz customer journeys across digital discovery, showroom, ownership and service touchpoints",
+          "Aviva strategic partner work across online and offline propositions",
+          "Lowestoft to Land's End trail as evidence of physical journey design, mapping, communication and route planning"
+        ]
+      },
+      {
+        "requirement": "Delivery resilience and autonomy",
+        "evidence": [
+          "Lowestoft to Land's End 645-mile self-designed walking route",
+          "Independent consultancy across agency and client-side environments",
+          "Long-running enterprise transformation work",
+          "Cross-functional delivery in regulated and complex environments",
+          "Experience working autonomously and in multidisciplinary teams"
+        ]
+      }
+    ],
+    "application_themes": [
+      "Complexity made usable",
+      "Human-centred design in AI-enabled products",
+      "Information architecture for large-scale systems",
+      "UX leadership across regulated environments",
+      "Evidence-led design and stakeholder confidence",
+      "Strategic thinking with hands-on delivery",
+      "Design that connects business, technology and human needs",
+      "From QA and BA foundations to senior UX and IA practice",
+      "Accessible, inclusive and measurable digital experiences",
+      "Physical and digital journey thinking",
+      "Resilience, clarity and delivery under uncertainty"
+    ],
+    "sector_positioning": [
+      {
+        "sector": "Financial services",
+        "positioning": "Strong fit. Use HSBC, Barclays, Barclaycard, Aviva and Lloyds-related experience where supported. Emphasise regulated systems, stakeholder management, data-rich workflows, accessibility, compliance and complex customer journeys."
+      },
+      {
+        "sector": "Public sector and government services",
+        "positioning": "Potentially strong fit where the role values IA, accessibility, user research, service journeys and Agile delivery. Use Skills Funding Agency and GDS-aligned language carefully. Do not claim direct GOV.UK prototyping toolkit experience unless it is explicitly present in Ed's verified profile data."
+      },
+      {
+        "sector": "AI-enabled product design",
+        "positioning": "Strong and emerging fit. Use Ed's AI Career Agent, AI-assisted workflows, complex systems thinking and human-centred AI positioning."
+      },
+      {
+        "sector": "B2B SaaS and analytics",
+        "positioning": "Good fit when roles involve complex data, workflows, dashboards, design systems, stakeholder communication and turning data-rich products into clearer user experiences."
+      },
+      {
+        "sector": "Automotive and mobility",
+        "positioning": "Good fit. Use Mercedes-Benz, Barclaycard physical/digital touchpoints and any relevant service journey evidence. Especially relevant for roles involving B2C discovery journeys, ownership journeys, operational tools or digital/physical experience ecosystems."
+      },
+      {
+        "sector": "Healthcare, wellbeing or safety-critical tools",
+        "positioning": "Transferable fit. Emphasise complex workflows, accessibility, trust, clarity, user research, information architecture and safe, understandable interfaces. Avoid claiming direct clinical design experience unless supported elsewhere."
+      },
+      {
+        "sector": "Media, broadcast and streaming",
+        "positioning": "Strong fit. Use ITV, SRF, Jewzy.TV, IPTV/VOD experience and content discovery, navigation, platform UX and audience engagement."
+      },
+      {
+        "sector": "Mapping, access, outdoor, heritage or geospatial organisations",
+        "positioning": "Distinctive fit. Combine UX/IA with the Lowestoft to Land's End route planning project, accessibility, physical journey design and public communication."
+      }
+    ],
+    "preferred_answer_style_for_recruiters": [
+      "Answer in third person as Ed's AI career agent.",
+      "Be direct, specific and evidence-led.",
+      "Use project evidence and testimonials where relevant.",
+      "Keep answers concise unless the recruiter asks for detail.",
+      "When relevant, include portfolio links from portfolio_links.",
+      "Frame Ed as a senior practitioner who can operate strategically and hands-on.",
+      "Emphasise complex systems, information architecture, stakeholder confidence, research-led design, accessibility and AI-aware UX.",
+      "Avoid overclaiming, especially around sectors, tools or frameworks that are not explicitly present in Ed's supplied data.",
+      "When a role fit is strong, explain why using 3 to 5 evidence points.",
+      "When a role fit is partial or transferable, be honest and describe the transferable strengths."
+    ],
+    "short_pitch": "Ed is a senior UX consultant, information architect and product designer with 30 years' experience simplifying complex digital systems across finance, government, media, automotive and enterprise environments.",
+    "longer_pitch": "Ed Birchmore helps organisations make complex digital systems clearer, more usable and more effective. His experience spans HSBC, Barclays, Barclaycard, Aviva, ITV, Pearson Education, Mercedes-Benz, SRF and other major organisations. He combines UX strategy, information architecture, prototyping, research, stakeholder management, technical understanding and practical AI literacy to support teams working on complex, regulated or transformation-heavy products and services.",
+    "fifteen_word_summary": "Strategic UX specialist fusing design, research and IA to craft accessible, user-focused digital experiences.",
+    "avoid_positioning_as": [
+      "A visual-only UI designer",
+      "A junior product designer",
+      "A pure researcher with no delivery involvement",
+      "A generic generalist without a complex-systems specialism",
+      "An AI engineer or machine-learning specialist",
+      "A GOV.UK specialist unless the specific evidence is present",
+      "A clinical healthcare specialist unless the role is framed as transferable UX experience"
+    ],
+    "important_caveats": [
+      "Do not claim direct experience in a sector unless it is present in the supplied profile data.",
+      "Do not claim specific tools such as the GOV.UK prototyping toolkit unless explicitly present in verified profile data.",
+      "Do not invent metrics, awards, employers, dates or project outcomes.",
+      "If a recruiter asks about a gap or unsupported requirement, describe relevant transferable experience and say the profile data does not confirm direct experience."
+    ]
+  }
   "skills": [
     "User Experience Design",
     "Information Architecture",
