@@ -1,27 +1,193 @@
 {
-    "name": "Ed Birchmore",
-    "title": "Information Architect & UX Designer",
-    "summary": "30 years creating accessible, intuitive digital ecosystems across government and media.",
-    "skills": [
-      "Information Architecture",
-      "UX Research",
-      "Accessibility Design",
-      "AI Interaction",
-      "Service Blueprinting"
-    ],
-    "experience": [
-      {
-        "company": "BBC Digital",
-        "role": "Senior Information Architect",
-        "years": "2012–2018",
-        "summary": "Led taxonomy redesign for multi‑platform content delivery impacting millions of users."
-      },
-      {
-        "company": "Gov UK",
-        "role": "Lead UX Consultant",
-        "years": "2018–2023",
-        "summary": "Established design system and accessibility standards adopted across 100+ teams."
-      }
-    ]
-  }
-  
+  "name": "Ed Birchmore",
+  "title": "Senior UX Consultant, Information Architect & Product Designer",
+  "summary": "Senior UX and Interaction Designer specialising in simplifying complex, data-rich systems into clear, accessible and user-centred digital experiences across finance, government, media, automotive and enterprise environments.",
+  "location": "United Kingdom",
+  "portfolio": "https://www.ramblingtales.com/portfolio",
+  "linkedin": "https://www.linkedin.com/in/edbirchmore/",
+  "email": "edbirchmore@gmail.com",
+  "phone": "07790 697639",
+  "positioning": [
+    "Complexity simplifier",
+    "Information architecture specialist",
+    "Enterprise UX strategist",
+    "AI-aware product thinker",
+    "Regulated systems UX consultant"
+  ],
+  "skills": [
+    "User Experience Design",
+    "Information Architecture",
+    "Interaction Design",
+    "Product Design",
+    "UX Strategy",
+    "User Research",
+    "Usability Testing",
+    "Journey Mapping",
+    "Service Design Thinking",
+    "Complex Workflow Design",
+    "Accessibility and Inclusive Design",
+    "Design Systems",
+    "Agile and Lean UX",
+    "Stakeholder Management",
+    "C-suite Communication",
+    "Business Analysis",
+    "Functional Specification Writing",
+    "Prototyping",
+    "Conditional Logic Prototyping",
+    "AI-enhanced UX Workflows",
+    "Digital Transformation"
+  ],
+  "tools": [
+    "Axure RP",
+    "Figma",
+    "Adobe Creative Suite",
+    "Sketch",
+    "Miro",
+    "FigJam",
+    "Jira",
+    "Confluence",
+    "Fireflies.ai",
+    "ChatGPT",
+    "Ideogram AI",
+    "Kling AI"
+  ],
+  "experience": [
+    {
+      "company": "HSBC",
+      "role": "Global UX Manager – Corporate Payments",
+      "years": "2017–2019",
+      "summary": "Led UX across HSBC’s global corporate payments transformation, simplifying complex payment workflows across markets, regulations and legacy platform migration.",
+      "highlights": [
+        "Designed complex payment journeys and Axure prototypes",
+        "Worked across Product, Legal, Compliance and Engineering",
+        "Supported migration from legacy systems to new platforms",
+        "Collaborated with senior and C-suite stakeholders"
+      ]
+    },
+    {
+      "company": "Barclays and Barclaycard",
+      "role": "Senior UX Strategic Consultant",
+      "years": "2014–2015",
+      "summary": "Helped establish design-led, data-driven Agile and Lean UX processes across Barclays, then seconded to Barclaycard’s ID&V programme.",
+      "highlights": [
+        "Created and owned global Agile and Lean UX process standards",
+        "Evaluated proposed physical and digital bankcard proposition",
+        "Identified structural flaws through UX methods",
+        "Helped save Barclaycard £150m by redirecting the programme",
+        "Designed onboarding and device-agnostic user journeys"
+      ]
+    },
+    {
+      "company": "La Casa Shambala",
+      "role": "UX Consultant",
+      "years": "2024–2025",
+      "summary": "Led IA and UX audit for a travel and leisure platform, redesigning booking flows, site structure and prototype journeys.",
+      "highlights": [
+        "Audited website, booking process and analytics",
+        "Redesigned site architecture to improve SEO and usability",
+        "Created Figma wireframes and prototype",
+        "Ran live user testing using Fireflies.ai"
+      ]
+    },
+    {
+      "company": "Jewzy.TV",
+      "role": "Product Design and Strategy Lead",
+      "years": "2020–2022",
+      "summary": "Led UX and product strategy for a Vimeo-based streaming platform and online film festival.",
+      "highlights": [
+        "Defined UX strategy and operational framework",
+        "Customised Vimeo platform experience",
+        "Created Axure prototypes for functional validation",
+        "Designed and launched online film festival assets"
+      ]
+    },
+    {
+      "company": "Mercedes-Benz",
+      "role": "Senior UX Consultant",
+      "years": "2016",
+      "summary": "Delivered a strategic UX and IA review of Mercedes-Benz UK’s digital ecosystem.",
+      "highlights": [
+        "Created personas, scenarios and customer journeys",
+        "Designed six typical user journeys",
+        "Produced strategic roadmap for improved customer experience",
+        "Mapped digital and ownership touchpoints"
+      ]
+    },
+    {
+      "company": "Aviva",
+      "role": "Senior UX Strategic Consultant",
+      "years": "2016",
+      "summary": "Worked with Strategic Partnership teams to improve online and offline customer propositions for major partners.",
+      "highlights": [
+        "Advised partners including HSBC, TSB, Barclays and Tesco",
+        "Improved digital proposition strategy",
+        "Aligned UX thinking with business growth and partner needs"
+      ]
+    },
+    {
+      "company": "Skills Funding Agency",
+      "role": "Senior UX Consultant",
+      "years": "2014",
+      "summary": "Worked in a GDS-aligned Agile team to rationalise public sector service flows and evaluate Microsoft Dynamics CRM.",
+      "highlights": [
+        "Reviewed and rationalised complex process flows",
+        "Produced user journeys, personas and Axure prototypes",
+        "Aligned CRM functionality with business and user needs"
+      ]
+    },
+    {
+      "company": "Pearson Education / Pearson Italia",
+      "role": "Lead UX Consultant",
+      "years": "2013–2014",
+      "summary": "Led UX for eCommerce and SSO initiatives within Agile product teams.",
+      "highlights": [
+        "Created user journeys, flows and prototypes",
+        "Ran user testing with Italian parents in Milan",
+        "Supported scalable product design for education platforms"
+      ]
+    },
+    {
+      "company": "Earlier UX, IA and BA Roles",
+      "role": "Freelance UX / IA / Business Analysis Consultant",
+      "years": "2000–2013",
+      "summary": "Delivered UX, IA and BA consultancy across media, finance, travel, telecoms, eCommerce, government and broadcast platforms.",
+      "selected_clients": [
+        "ITV",
+        "Sky",
+        "Lloyds Bank",
+        "Cable & Wireless",
+        "British Airways",
+        "BUPA",
+        "Mars Petcare",
+        "Qatar Airways",
+        "Virgin Media",
+        "HarperCollins",
+        "Adecco",
+        "Jimmy Choo",
+        "Selfridges",
+        "GlaxoSmithKline",
+        "UK Government",
+        "Freesat",
+        "RSA Insurance",
+        "SRF Switzerland"
+      ]
+    }
+  ],
+  "notable_achievements": [
+    "Saved Barclaycard £150m by identifying flaws in a proposed ID&V product strategy",
+    "Helped design early video-on-demand work that contributed to ITV Player and later BritBox-related services",
+    "Led UX and IA for SRF Switzerland’s award-winning national broadcaster redesign",
+    "Mapped, planned and walked the 645-mile Lowestoft to Land’s End route",
+    "Built and explored AI-assisted workflows for portfolio and application support"
+  ],
+  "personal_projects": [
+    {
+      "name": "Lowestoft to Land’s End Trail",
+      "summary": "Designed, mapped, planned and completed a 645-mile UK hiking route, raising money for charity and generating media coverage."
+    },
+    {
+      "name": "AI Portfolio Agent",
+      "summary": "Explored AI-assisted workflows for CV tailoring, job applications, portfolio structuring and UX positioning."
+    }
+  ]
+}
