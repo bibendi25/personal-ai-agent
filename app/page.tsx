@@ -20,7 +20,7 @@ export default function Home() {
 
         <section className="mx-auto mt-8 max-w-2xl rounded-lg border border-gray-200 bg-white p-6 text-left shadow-sm">
           <h2 className="text-lg font-semibold text-gray-900">
-            About this prototype
+            About this AI Agent
           </h2>
 
           <p className="mt-3 text-sm leading-6 text-gray-600">
