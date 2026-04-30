@@ -51,11 +51,42 @@
     "Ideogram AI",
     "Kling AI"
   ],
+  "portfolio_links": {
+    "main_portfolio": "https://www.ramblingtales.com/portfolio",
+    "way_of_working": "https://www.ramblingtales.com/portfolio/the-way-i-work",
+    "projects": [
+      {
+        "name": "HSBC Global Corporate Payments",
+        "url": "https://www.ramblingtales.com/portfolio/hsbc"
+      },
+      {
+        "name": "Aviva Strategic Partnerships",
+        "url": "https://www.ramblingtales.com/portfolio/aviva"
+      },
+      {
+        "name": "Barclaycard ID&V",
+        "url": "https://www.ramblingtales.com/portfolio/barclaycard"
+      },
+      {
+        "name": "Mercedes-Benz Information Architecture",
+        "url": "https://www.ramblingtales.com/portfolio/mercedes-benz"
+      },
+      {
+        "name": "La Casa Shambala",
+        "url": "https://www.ramblingtales.com/portfolio/lacasashambala"
+      },
+      {
+        "name": "JEWZY TV",
+        "url": "https://www.ramblingtales.com/portfolio/jewzy"
+      }
+    ]
+  },
   "experience": [
     {
       "company": "HSBC",
       "role": "Global UX Manager – Corporate Payments",
       "years": "2017–2019",
+      "portfolio_url": "https://www.ramblingtales.com/portfolio/hsbc",
       "summary": "Led UX across HSBC’s global corporate payments transformation, simplifying complex payment workflows across markets, regulations and legacy platform migration.",
       "highlights": [
         "Designed complex payment journeys and Axure prototypes",
@@ -68,6 +99,7 @@
       "company": "Barclays and Barclaycard",
       "role": "Senior UX Strategic Consultant",
       "years": "2014–2015",
+      "portfolio_url": "https://www.ramblingtales.com/portfolio/barclaycard",
       "summary": "Helped establish design-led, data-driven Agile and Lean UX processes across Barclays, then seconded to Barclaycard’s ID&V programme.",
       "highlights": [
         "Created and owned global Agile and Lean UX process standards",
@@ -81,6 +113,7 @@
       "company": "La Casa Shambala",
       "role": "UX Consultant",
       "years": "2024–2025",
+      "portfolio_url": "https://www.ramblingtales.com/portfolio/lacasashambala",
       "summary": "Led IA and UX audit for a travel and leisure platform, redesigning booking flows, site structure and prototype journeys.",
       "highlights": [
         "Audited website, booking process and analytics",
@@ -93,6 +126,7 @@
       "company": "Jewzy.TV",
       "role": "Product Design and Strategy Lead",
       "years": "2020–2022",
+      "portfolio_url": "https://www.ramblingtales.com/portfolio/jewzy",
       "summary": "Led UX and product strategy for a Vimeo-based streaming platform and online film festival.",
       "highlights": [
         "Defined UX strategy and operational framework",
@@ -105,6 +139,7 @@
       "company": "Mercedes-Benz",
       "role": "Senior UX Consultant",
       "years": "2016",
+      "portfolio_url": "https://www.ramblingtales.com/portfolio/mercedes-benz",
       "summary": "Delivered a strategic UX and IA review of Mercedes-Benz UK’s digital ecosystem.",
       "highlights": [
         "Created personas, scenarios and customer journeys",
@@ -117,6 +152,7 @@
       "company": "Aviva",
       "role": "Senior UX Strategic Consultant",
       "years": "2016",
+      "portfolio_url": "https://www.ramblingtales.com/portfolio/aviva",
       "summary": "Worked with Strategic Partnership teams to improve online and offline customer propositions for major partners.",
       "highlights": [
         "Advised partners including HSBC, TSB, Barclays and Tesco",
@@ -180,6 +216,83 @@
     "Mapped, planned and walked the 645-mile Lowestoft to Land’s End route",
     "Built and explored AI-assisted workflows for portfolio and application support"
   ],
+  "testimonials": [
+    {
+      "subject": "UX and Agile",
+      "quote": "It’s rare to find UX that’s truly willing to adapt to working in an Agile environment, Ed is one of those people, taking responsibility for the team’s progress as a whole.",
+      "person": "Tim Hopkins",
+      "role": "Product Owner",
+      "organisation": "Pearson Education"
+    },
+    {
+      "subject": "Requirements",
+      "quote": "Ed is a highly reliable, knowledgeable UX Consultant who grasps user and technical requirements quickly and is then able to produce User Journeys and Wireframes to playback those requirements to the business in an easy to understand manner. This made my job of translating those requirements super-easy, and resulted in technical work which met user requirements perfectly.",
+      "person": "Gary Kellett",
+      "role": "Technical Architect",
+      "organisation": "Ciber UK / Skills Funding Agency"
+    },
+    {
+      "subject": "Strategy",
+      "quote": "Ed was incredible for us, really helping us drive towards a great outcome set for our partners. Ed challenged our thinking and hugely over delivered. He’s a real asset.",
+      "person": "Tim Wilmot",
+      "role": "Head of Digital Propositions",
+      "organisation": "Aviva Insurance"
+    },
+    {
+      "subject": "Team solutions",
+      "quote": "Ed is a pleasure to work with. He integrates well into teams, builds strong relationships with colleagues and thrives in a collaborative working environment. Ed continuously questions and invites healthy debate in a quest to identify the best solutions.",
+      "person": "Sarah Roberts",
+      "role": "UX Director",
+      "organisation": "Kit Digital"
+    },
+    {
+      "subject": "Solutions and stakeholders",
+      "quote": "Ed was a core member of my Barclays team, and I was impressed with his impact. He brought considered CX analysis and delivered quality UX solutions with fast turnaround. He was excellent in managing conflicting stakeholder requests that helped change the outcome on a high-profile project.",
+      "person": "Caroline Thomas",
+      "role": "CX Director",
+      "organisation": "Barclays"
+    }
+  ],
+  "way_of_working": {
+    "summary": "Ed works through a user-centred, design-led and data-informed process, combining early discovery, stakeholder alignment, information architecture, user journeys, prototyping and iterative testing.",
+    "portfolio_url": "https://www.ramblingtales.com/portfolio/the-way-i-work",
+    "principles": [
+      "Understand the needs of the client and the user before designing solutions.",
+      "Use workshops, interviews, research and analytics to define project goals and hypotheses.",
+      "Review competitors, current tools, applications and existing customer activity.",
+      "Treat users as central to every UX decision, using analytics, research and testing to understand needs and behaviours.",
+      "Use personas, scenarios, journeys and information architecture to create shared understanding across teams.",
+      "Prototype early using tools such as Figma and Axure RP, then validate with stakeholders and users.",
+      "Use usability testing, user testing and surveys to evaluate whether designs meet the original hypotheses.",
+      "Work iteratively with Agile, Lean UX and cross-functional teams to reduce risk and improve outcomes."
+    ],
+    "standard_ux_activities": [
+      {
+        "name": "Personas",
+        "description": "Create personas from user research, customer conversations and demographic or behavioural evidence, then use them to keep the wider team focused on user needs."
+      },
+      {
+        "name": "User scenarios and journeys",
+        "description": "Create journeys that describe user needs, flows and service touchpoints rather than jumping straight to interface design."
+      },
+      {
+        "name": "Information Architecture",
+        "description": "Structure content, navigation and categorisation through sitemaps, card sorting, stakeholder validation and user-centred organisation."
+      },
+      {
+        "name": "Sketching and wireframes",
+        "description": "Use collaborative sketching, whiteboards, wireframes and user flows to build consensus before committing to higher fidelity design."
+      },
+      {
+        "name": "Prototyping",
+        "description": "Use Figma for simpler prototypes and Axure RP for more complex prototypes, particularly where conditional logic or detailed workflow behaviour needs to be tested."
+      },
+      {
+        "name": "User testing and usability testing",
+        "description": "Define test scripts, success criteria and hypotheses, then test prototypes or live software iteratively with users and stakeholders."
+      }
+    ]
+  },
   "personal_projects": [
     {
       "name": "Lowestoft to Land’s End Trail",
