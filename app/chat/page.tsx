@@ -55,7 +55,7 @@ export default function ChatPage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start px-4 pt-10">
       <h2 className="mb-4 text-2xl font-semibold text-gray-900">
-        Ed&rsquo;s AI Career Agent Chat
+        Chat with Ed&rsquo;s AI Agent
       </h2>
 
       <p className="mb-6 max-w-md text-center text-gray-500">
