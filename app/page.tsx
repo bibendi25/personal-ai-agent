@@ -13,9 +13,7 @@ export default function Home() {
         </h1>
 
         <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-gray-600">
-          This AI career agent answers questions about Ed Birchmore&rsquo;s UX,
-          Information Architecture, Product Design, project work, testimonials
-          and user-centred design approach.
+        Ed Birchmore’s AI Career Agent answers questions about Ed&rsquo;s UX, Information Architecture, Product Design, projects, testimonials and working style.
         </p>
 
         <section className="mx-auto mt-8 max-w-2xl rounded-lg border border-gray-200 bg-white p-6 text-left shadow-sm">
