@@ -14,8 +14,18 @@ export default function ChatPage() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ messages: [...messages, userMsg] }),
     });
-    const { reply } = await res.json();
-    setMessages((prev) => [...prev, { role: "assistant", content: reply }]);
+    
+    const data = await res.json();
+    
+    setMessages((prev: any[]) => [
+      ...prev,
+      {
+        role: "assistant",
+        content:
+          data.reply ||
+          "Sorry — I did not receive a reply from the AI service.",
+      },
+    ]);
   }
   return (
     <main className="flex flex-col items-center justify-start min-h-screen pt-10 px-4">
