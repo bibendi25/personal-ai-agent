@@ -55,12 +55,11 @@ export default function ChatPage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start px-4 pt-10">
       <h2 className="mb-4 text-2xl font-semibold text-gray-900">
-        Ed Birchmore&rsquo;s AI Career Agent
+        Ed&rsquo;s AI Career Agent Chat
       </h2>
 
       <p className="mb-6 max-w-md text-center text-gray-500">
-        Ask about Ed&rsquo;s UX experience, portfolio projects, testimonials,
-        working style, AI interests or suitability for specific roles.
+        Try asking: “Tell me about Ed’s HSBC work”, “What makes Ed different?”, “How does Ed use AI?”, “Is Ed suitable for complex UX roles?”
       </p>
 
       <div
