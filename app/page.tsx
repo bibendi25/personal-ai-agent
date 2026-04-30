@@ -45,7 +45,15 @@ export default function Home() {
           >
             Chat with Ed&rsquo;s AI Agent
           </Link>
-
+          
+          <a
+          href="/CV_EdBirchmore_April_2026.pdf"
+          target="_blank"
+          rel="noreferrer"
+          className="rounded-md border border-gray-300 bg-white px-6 py-3 text-sm font-semibold text-gray-700 shadow-sm transition hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+          >
+            Download Ed&rsquo;s CV
+          </a>
           <a
             href="https://www.ramblingtales.com/portfolio"
             target="_blank"
