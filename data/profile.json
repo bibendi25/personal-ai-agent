@@ -308,6 +308,6 @@
     "summary": "A live personal AI career agent built using ChatGPT-assisted development, Next.js, GitHub, StackBlitz and Vercel.",
     "ai_model": "The live chat experience is powered by the Anthropic Claude API.",
     "purpose": "To demonstrate practical AI literacy, UX thinking, information architecture and the ability to design, build, debug and deploy a public-facing AI-enabled career tool.",
-    "description": "I built this personal AI career agent using ChatGPT-assisted development, Next.js, GitHub, StackBlitz and Vercel. The live chat experience is powered by the Anthropic Claude API and grounded in structured career data from my CV, portfolio and selected UX projects."
+    "description": "Ed built this personal AI career agent using ChatGPT-assisted development, Next.js, GitHub, StackBlitz and Vercel. The live chat experience is powered by the Anthropic Claude API and grounded in structured career data from Ed's CV, portfolio and selected UX projects."
   }
 }

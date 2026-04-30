@@ -2,9 +2,9 @@ import "./globals.css";
 import React, { ReactNode } from "react";
 
 export const metadata = {
-  title: "Ed Birchmore – Personal AI Career Agent",
+  title: "Ed Birchmore’s AI Career Agent",
   description:
-    "A personal AI career agent built with ChatGPT-assisted development, Next.js, GitHub, StackBlitz, Vercel and the Anthropic Claude API.",
+    "An AI career agent that answers questions about Ed Birchmore’s UX experience, portfolio, testimonials and user-centred design approach.",
 };
 
 export default function RootLayout({
