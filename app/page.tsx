@@ -50,7 +50,7 @@ export default function Home() {
           rel="noreferrer"
           className="rounded-md border border-gray-300 bg-white px-6 py-3 text-sm font-semibold text-gray-700 shadow-sm transition hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
           >
-            Download Ed&rsquo;s CV
+            Download CV
           </a>
           <a
             href="https://www.ramblingtales.com/portfolio"
@@ -58,9 +58,20 @@ export default function Home() {
             rel="noreferrer"
             className="rounded-md border border-gray-300 bg-white px-6 py-3 text-sm font-semibold text-gray-700 shadow-sm transition hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
           >
-            View Ed&rsquo;s portfolio
+            View Portfolio
           </a>
         </div>
+
+        <p className="mx-auto mt-8 max-w-xl text-sm leading-6 text-gray-500">
+  <a
+    href="https://www.linkedin.com/in/edbirchmore/"
+    target="_blank"
+    rel="noreferrer"
+    className="font-medium text-indigo-600 hover:text-indigo-700 underline"
+  >
+    LinkedIn Profile
+  </a>
+</p>
 
         <p className="mx-auto mt-8 max-w-xl text-sm leading-6 text-gray-500">
           Try asking about HSBC, Barclaycard, Mercedes-Benz, La Casa Shambala,
