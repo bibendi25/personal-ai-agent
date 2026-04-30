@@ -291,8 +291,7 @@
       "Do not claim specific tools such as the GOV.UK prototyping toolkit unless explicitly present in verified profile data.",
       "Do not invent metrics, awards, employers, dates or project outcomes.",
       "If a recruiter asks about a gap or unsupported requirement, describe relevant transferable experience and say the profile data does not confirm direct experience."
-    ]
-  }
+    ],
   "skills": [
     "User Experience Design",
     "Information Architecture",
