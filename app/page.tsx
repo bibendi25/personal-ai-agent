@@ -9,7 +9,7 @@ export default function Home() {
         </p>
 
         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-          Ask an AI agent about Ed&rsquo;s UX experience
+          Ask Ed&rsquo;s AI Agent about Ed
         </h1>
 
         <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-gray-600">
