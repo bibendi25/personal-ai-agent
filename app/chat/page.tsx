@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 
 type Message = {
   role: "user" | "assistant";
@@ -95,6 +96,15 @@ export default function ChatPage() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-start px-4 pt-10">
+      <nav className="mb-6 w-full max-w-2xl" aria-label="Chat page navigation">
+        <Link
+          href="/"
+          className="inline-flex items-center rounded-md text-sm font-medium text-indigo-600 underline-offset-4 hover:text-indigo-700 hover:underline focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+        >
+          ← Back to homepage
+        </Link>
+      </nav>
+  
       <h2 className="mb-4 text-2xl font-semibold text-gray-900">
         Ed Birchmore&rsquo;s AI Career Agent
       </h2>
