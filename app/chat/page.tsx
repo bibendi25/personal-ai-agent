@@ -111,7 +111,7 @@ export default function ChatPage() {
 
       <p className="mb-6 max-w-md text-center text-gray-500">
         Ask about Ed&rsquo;s UX experience, portfolio projects, testimonials,
-        working style, AI interests or suitability for specific roles.
+        working style, AI interests or suitability for specific roles. You can even paste a job description in and ask if Ed is suitable for the role.
       </p>
 
       <div className="mb-3 flex w-full max-w-2xl flex-wrap items-center justify-between gap-2">
