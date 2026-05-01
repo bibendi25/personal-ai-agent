@@ -109,9 +109,9 @@ export default function ChatPage() {
         Ed Birchmore&rsquo;s AI Career Agent
       </h2>
 
-      <p className="mb-6 max-w-md text-center text-gray-500">
+      <p className="mb-6 max text-center text-gray-500">
         Ask about Ed&rsquo;s UX experience, portfolio projects, testimonials,
-        working style, AI interests or suitability for specific roles. You can even paste a job description in and ask if Ed is suitable for the role.
+        working style, AI interests or paste in a job description and ask if Ed is suitable for a specific role.
       </p>
 
       <div className="mb-3 flex w-full max-w-2xl flex-wrap items-center justify-between gap-2">
