@@ -2,17 +2,58 @@
 
 import React, { useState } from "react";
 
+type Message = {
+  role: "user" | "assistant";
+  content: string;
+};
+
 export default function ChatPage() {
-  const [messages, setMessages] = useState<any[]>([]);
+  const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+
+  function formatConversation() {
+    return messages
+      .map((m) => {
+        const speaker = m.role === "user" ? "User" : "Ed's AI Career Agent";
+        return `${speaker}:\n${m.content}`;
+      })
+      .join("\n\n---\n\n");
+  }
+
+  async function copyText(text: string) {
+    try {
+      await navigator.clipboard.writeText(text);
+    } catch (error) {
+      console.error("Copy failed:", error);
+      alert("Sorry — copying did not work in this browser.");
+    }
+  }
+
+  function downloadConversation() {
+    const text = formatConversation();
+
+    if (!text.trim()) return;
+
+    const blob = new Blob([text], { type: "text/plain;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "ed-birchmore-ai-agent-chat.txt";
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+
+    URL.revokeObjectURL(url);
+  }
 
   async function sendMessage(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
 
     if (!input.trim() || isLoading) return;
 
-    const userMsg = { role: "user", content: input.trim() };
+    const userMsg: Message = { role: "user", content: input.trim() };
 
     setMessages((prev) => [...prev, userMsg]);
     setInput("");
@@ -27,7 +68,7 @@ export default function ChatPage() {
 
       const data = await res.json();
 
-      setMessages((prev: any[]) => [
+      setMessages((prev) => [
         ...prev,
         {
           role: "assistant",
@@ -39,7 +80,7 @@ export default function ChatPage() {
     } catch (error) {
       console.error("Chat error:", error);
 
-      setMessages((prev: any[]) => [
+      setMessages((prev) => [
         ...prev,
         {
           role: "assistant",
@@ -55,12 +96,50 @@ export default function ChatPage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start px-4 pt-10">
       <h2 className="mb-4 text-2xl font-semibold text-gray-900">
-        Chat with Ed&rsquo;s AI Agent
+        Ed Birchmore&rsquo;s AI Career Agent
       </h2>
 
       <p className="mb-6 max-w-md text-center text-gray-500">
-        Try asking: “Tell me about Ed’s HSBC work”, “What makes Ed different?”, “How does Ed use AI?”, “Is Ed suitable for complex UX roles?”
+        Ask about Ed&rsquo;s UX experience, portfolio projects, testimonials,
+        working style, AI interests or suitability for specific roles.
       </p>
+
+      <div className="mb-3 flex w-full max-w-2xl flex-wrap items-center justify-between gap-2">
+        <div className="text-xs text-gray-400">
+          {messages.length > 0
+            ? `${messages.length} message${messages.length === 1 ? "" : "s"}`
+            : "No chat yet"}
+        </div>
+
+        <div className="flex flex-wrap gap-2">
+          <button
+            type="button"
+            onClick={() => copyText(formatConversation())}
+            disabled={messages.length === 0}
+            className="rounded-md border border-gray-300 bg-white px-3 py-1.5 text-xs font-medium text-gray-700 shadow-sm transition hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-40"
+          >
+            Copy chat
+          </button>
+
+          <button
+            type="button"
+            onClick={downloadConversation}
+            disabled={messages.length === 0}
+            className="rounded-md border border-gray-300 bg-white px-3 py-1.5 text-xs font-medium text-gray-700 shadow-sm transition hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-40"
+          >
+            Download chat
+          </button>
+
+          <button
+            type="button"
+            onClick={() => setMessages([])}
+            disabled={messages.length === 0 || isLoading}
+            className="rounded-md border border-red-200 bg-white px-3 py-1.5 text-xs font-medium text-red-600 shadow-sm transition hover:bg-red-50 disabled:cursor-not-allowed disabled:opacity-40"
+          >
+            Clear
+          </button>
+        </div>
+      </div>
 
       <div
         className="h-96 w-full max-w-2xl overflow-y-auto rounded-lg border bg-white p-4 shadow"
@@ -75,18 +154,31 @@ export default function ChatPage() {
         {messages.map((m, i) => (
           <div
             key={i}
-            className={`my-2 flex ${
+            className={`my-3 flex ${
               m.role === "user" ? "justify-end" : "justify-start"
             }`}
           >
             <div
-              className={`max-w-[80%] whitespace-pre-line rounded-lg px-4 py-2 ${
+              className={`max-w-[80%] rounded-lg px-4 py-2 ${
                 m.role === "user"
                   ? "rounded-tr-none bg-indigo-600 text-white"
                   : "rounded-tl-none bg-gray-200 text-gray-800"
               }`}
             >
-              {m.content}
+              <div className="whitespace-pre-line">{m.content}</div>
+
+              {m.role === "assistant" && (
+                <div className="mt-2 flex justify-end">
+                  <button
+                    type="button"
+                    onClick={() => copyText(m.content)}
+                    className="rounded border border-gray-300 bg-white px-2 py-1 text-xs text-gray-600 hover:bg-gray-50"
+                    aria-label="Copy this AI reply"
+                  >
+                    Copy reply
+                  </button>
+                </div>
+              )}
             </div>
           </div>
         ))}
@@ -110,7 +202,7 @@ export default function ChatPage() {
           className="flex-1 rounded-l-md border px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Ask about Ed’s experience..."
+          placeholder="Ask about Ed’s UX experience..."
           disabled={isLoading}
         />
 
