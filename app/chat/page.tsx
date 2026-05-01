@@ -202,7 +202,7 @@ export default function ChatPage() {
           className="flex-1 rounded-l-md border px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Ask about Ed’s UX experience..."
+          placeholder="Ask about Ed’s experience..."
           disabled={isLoading}
         />
 
