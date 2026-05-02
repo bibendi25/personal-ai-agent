@@ -143,7 +143,21 @@
           "Barclays and Barclaycard",
           "Aviva Strategic Partnerships",
           "Lloyds Bank and other financial-services experience from earlier career",
+          "Bank of South Australia / St George Bank mortgage document-processing application",
+          "Cheltenham & Gloucester Bank, Standard Life and other financial-services testing experience",
           "Experience balancing business, compliance, technical and user needs"
+        ]
+      },
+      {
+        "requirement": "Government and public-sector experience",
+        "evidence": [
+          "Strategic Rail Authority intranet redevelopment for 300+ users",
+          "Office of Passenger Rail Franchising Incentive Regime System work for UK Train Operating Companies",
+          "Office for Standards in Education requirements analysis, inspection reporting processes and parliamentary statistics",
+          "Department for Work and Pensions interactive pension iDTV testing",
+          "Department of Health campaign website testing",
+          "Learning and Skills Council Apprenticeships website testing",
+          "Skills Funding Agency GDS-aligned Agile service work"
         ]
       },
       {
@@ -153,6 +167,8 @@
           "Barclays and Barclaycard strategic programme review",
           "Aviva Strategic Partnerships",
           "Mercedes-Benz strategic IA and journey work",
+          "Office of Passenger Rail Franchising liaison with Train Operating Companies",
+          "Cable & Wireless transatlantic development and QA coordination",
           "Testimonials from Caroline Thomas, Tim Wilmot and Sarah Roberts"
         ]
       },
@@ -163,6 +179,8 @@
           "Pearson Italia user testing with parents in Milan",
           "Mercedes-Benz personas, scenarios and journey validation",
           "Barclaycard proposition testing and strategic review",
+          "DNA Consulting QA, usability and testing leadership",
+          "Cable & Wireless global QA, usability, UAT and performance testing",
           "QA/testing background before moving into BA, IA and UX"
         ]
       },
@@ -182,6 +200,7 @@
         "evidence": [
           "Experience applying existing brand and design guidelines into prototypes",
           "Design-system and style-guide contribution across enterprise, product and website work",
+          "Cable & Wireless content, look-and-feel and web style guidelines",
           "Figma component-based design work",
           "Cross-platform consistency across web, mobile and operational systems"
         ]
@@ -201,7 +220,8 @@
           "Barclaycard ID&V work involving a proposed physical bank card and digital alternatives",
           "Mercedes-Benz customer journeys across digital discovery, showroom, ownership and service touchpoints",
           "Aviva strategic partner work across online and offline propositions",
-          "Lowestoft to Land's End trail as evidence of physical journey design, mapping, communication and route planning"
+          "Lowestoft to Land's End trail as evidence of physical journey design, mapping, communication and route planning",
+          "Tiphook quality control and operational coordination across physical container-rental processes"
         ]
       },
       {
@@ -211,6 +231,7 @@
           "Independent consultancy across agency and client-side environments",
           "Long-running enterprise transformation work",
           "Cross-functional delivery in regulated and complex environments",
+          "Cable & Wireless global website migration involving 18 websites in 10 languages",
           "Experience working autonomously and in multidisciplinary teams"
         ]
       }
@@ -231,11 +252,11 @@
     "sector_positioning": [
       {
         "sector": "Financial services",
-        "positioning": "Strong fit. Use HSBC, Barclays, Barclaycard, Aviva and Lloyds-related experience where supported. Emphasise regulated systems, stakeholder management, data-rich workflows, accessibility, compliance and complex customer journeys."
+        "positioning": "Strong fit. Use HSBC, Barclays, Barclaycard, Aviva, Lloyds-related experience, Bank of South Australia / St George Bank, Cheltenham & Gloucester and Standard Life where supported. Emphasise regulated systems, stakeholder management, data-rich workflows, accessibility, compliance and complex customer journeys."
       },
       {
         "sector": "Public sector and government services",
-        "positioning": "Potentially strong fit where the role values IA, accessibility, user research, service journeys and Agile delivery. Use Skills Funding Agency and GDS-aligned language carefully. Do not claim direct GOV.UK prototyping toolkit experience unless it is explicitly present in Ed's verified profile data."
+        "positioning": "Strong fit where the role values IA, accessibility, user research, service journeys, requirements analysis, testing, reporting, intranets and Agile delivery. Use Strategic Rail Authority, Office of Passenger Rail Franchising, OFSTED, DWP, Department of Health, Learning and Skills Council and Skills Funding Agency. Do not claim direct GOV.UK prototyping toolkit experience unless it is explicitly present in Ed's verified profile data."
       },
       {
         "sector": "AI-enabled product design",
@@ -251,7 +272,7 @@
       },
       {
         "sector": "Healthcare, wellbeing or safety-critical tools",
-        "positioning": "Transferable fit. Emphasise complex workflows, accessibility, trust, clarity, user research, information architecture and safe, understandable interfaces. Avoid claiming direct clinical design experience unless supported elsewhere."
+        "positioning": "Transferable fit. Emphasise complex workflows, accessibility, trust, clarity, user research, information architecture and safe, understandable interfaces. DNA Consulting included healthcare and charity-related work such as Standard Life Healthcare and British Heart Foundation. Avoid claiming direct clinical design experience unless supported elsewhere."
       },
       {
         "sector": "Media, broadcast and streaming",
@@ -292,8 +313,8 @@
       "Do not invent metrics, awards, employers, dates or project outcomes.",
       "If a recruiter asks about a gap or unsupported requirement, describe relevant transferable experience and say the profile data does not confirm direct experience."
     ]
-    },
-    "skills": [
+  },
+  "skills": [
     "User Experience Design",
     "Information Architecture",
     "Interaction Design",
@@ -311,6 +332,13 @@
     "C-suite Communication",
     "Business Analysis",
     "Functional Specification Writing",
+    "Quality Assurance",
+    "Functional Testing",
+    "Non-functional Testing",
+    "User Acceptance Testing",
+    "Cross-browser Testing",
+    "Performance Testing",
+    "Security Testing Coordination",
     "Prototyping",
     "Conditional Logic Prototyping",
     "AI-enhanced UX Workflows",
@@ -328,7 +356,11 @@
     "Fireflies.ai",
     "ChatGPT",
     "Ideogram AI",
-    "Kling AI"
+    "Kling AI",
+    "Mercury Interactive Test Director",
+    "Macromedia Dreamweaver",
+    "Microsoft Excel",
+    "Microsoft Access"
   ],
   "portfolio_links": {
     "main_portfolio": "https://www.ramblingtales.com/portfolio",
@@ -454,11 +486,202 @@
       "company": "Pearson Education / Pearson Italia",
       "role": "Lead UX Consultant",
       "years": "2013–2014",
-      "summary": "Worked in an Agile environment as Lead UX on an eCommerce project working with Italian business stakeholders to design and develop an add-on that enabled purchases without the need for full redevelopment of Pearson Italia. Activities included: Creating and building Personas, Scenarios and fully functional Axure Prototypes to use as a component of User Testing as part of an Agile Scrum team. Also worked to enhance the UX for a corporate-wide Identity Management initiative which enhanced Single Sign On (SSO) to Pearson's global/disparate online learning tools and applications.",
+      "summary": "Worked in an Agile environment as Lead UX on an eCommerce project with Italian business stakeholders, designing and developing an add-on that enabled purchases without requiring full redevelopment of Pearson Italia. Activities included creating personas, scenarios and fully functional Axure prototypes for user testing within an Agile Scrum team. Also worked to enhance the UX for a corporate-wide Identity Management initiative, improving Single Sign-On across Pearson's global online learning tools and applications.",
       "highlights": [
         "Created user journeys, flows and prototypes",
         "Ran user testing with Italian parents in Milan",
-        "Supported scalable product design for education platforms"
+        "Supported scalable product design for education platforms",
+        "Worked on eCommerce and Single Sign-On initiatives across Pearson learning platforms"
+      ]
+    },
+    {
+      "company": "DNA Consulting / DNA Agency",
+      "role": "Quality Assurance, Usability and Testing Manager",
+      "years": "October 2003 – September 2004",
+      "summary": "Managed quality assurance, usability and testing across external client websites, applications, eCommerce platforms and interactive digital products for a new media agency.",
+      "highlights": [
+        "Created and implemented QA, usability and testing methodologies aligned with industry usability standards and integrated into the agency development lifecycle.",
+        "Developed QA strategy, test plans, test scripts and quality management plans across commercial, financial, charity, retail and public-sector digital projects.",
+        "Set up test labs for cross-browser and operating-system testing across web environments.",
+        "Managed internal, contract, offshore and remote testing teams, including coordination with development teams in India.",
+        "Managed QA for the World Vision Alternative Gift Catalogue eCommerce application, including user-flow testing, third-party card fulfilment and secure online payment integration.",
+        "Analysed business requirements and wrote functional documentation for Oxfam Unwrapped, including integration between the front end, fulfilment provider and WorldPay payment gateway.",
+        "Managed testing and delivery of interactive CD-ROM applications including Muraselector for Muraspec and work for the British Heart Foundation.",
+        "Managed QA and testing for public-sector and government-related digital services, including the Department for Work and Pensions interactive pension iDTV site, Department of Health campaign work and Learning and Skills Council Apprenticeships."
+      ],
+      "selected_clients": [
+        "World Vision",
+        "Oxfam",
+        "Muraspec",
+        "British Heart Foundation",
+        "Department for Work and Pensions",
+        "Department of Health",
+        "Learning and Skills Council",
+        "Cheltenham & Gloucester Bank",
+        "Standard Life",
+        "Sky Business",
+        "Shoe Studio",
+        "House of Fraser"
+      ],
+      "government_experience": [
+        "Department for Work and Pensions interactive pension iDTV site",
+        "Department of Health campaign website",
+        "Learning and Skills Council Apprenticeships website"
+      ],
+      "evidence_of": [
+        "Quality assurance leadership",
+        "Usability testing",
+        "Functional specification writing",
+        "eCommerce testing",
+        "Payment integration testing",
+        "Government and public-sector digital delivery",
+        "Offshore and distributed team management"
+      ]
+    },
+    {
+      "company": "Cable & Wireless – Global Internet Group",
+      "role": "Global Quality Assurance, Usability and Testing Manager",
+      "years": "October 2000 – December 2002",
+      "summary": "Led global QA, usability and testing across Cable & Wireless’ international internet presence, including websites, partner portals, extranets, applications and a consolidated web services platform.",
+      "highlights": [
+        "Responsible for QA and testing sign-off across Cable & Wireless’ global internet estate, with responsibility for a testing budget of £1.5m.",
+        "Implemented a flexible QA and testing methodology designed to support speed-to-market while protecting quality.",
+        "Introduced structured testing practices across usability, system integration testing, user acceptance testing and final sign-off.",
+        "Managed teams of 5–20 QA specialists, contract test engineers and IBM professional services consultants across Europe and the US.",
+        "Managed migration and testing of 18 global websites in 10 languages into a common look and feel and content management system.",
+        "Helped develop two bespoke content management systems and associated web front ends and back ends.",
+        "Wrote content, look-and-feel and web style guidelines for Cable & Wireless websites.",
+        "Set up scalable test environments with staging servers and mirrored production environments for performance testing.",
+        "Managed load, stress and security testing on a consolidated web services platform of 52 web servers, working with IBM Testing and Scalability Professional Services.",
+        "Managed defect and issue communication across internal and external development teams using Mercury Interactive Test Director."
+      ],
+      "selected_clients_or_partners": [
+        "Cable & Wireless Global Internet Group",
+        "IBM Testing and Scalability Professional Services",
+        "Internal development teams in the UK, Europe and the US",
+        "External platform developers in New York",
+        "Interface developers in Vienna, Virginia"
+      ],
+      "evidence_of": [
+        "Global QA leadership",
+        "Enterprise web platform testing",
+        "CMS migration",
+        "Performance testing",
+        "Security testing",
+        "International stakeholder management",
+        "Large-scale content and platform governance"
+      ]
+    },
+    {
+      "company": "Strategic Rail Authority",
+      "role": "Intranet Project Manager",
+      "years": "February 2000 – August 2000",
+      "summary": "Managed the full lifecycle redevelopment of an intranet for 300+ users at the Strategic Rail Authority, including requirements gathering, content quality, functional specifications and testing.",
+      "highlights": [
+        "Managed the full lifecycle of the intranet redevelopment project for more than 300 users.",
+        "Gathered business requirements and wrote functional specifications for internal and external development teams.",
+        "Managed content quality and supported the development of the intranet using Macromedia Dreamweaver.",
+        "Responsible for cross-browser and operating-system testing of the intranet.",
+        "Configured an intranet and MS Access runtime application and database so the application could be accessed both through the intranet and directly from client machines."
+      ],
+      "government_experience": [
+        "Strategic Rail Authority government agency intranet redevelopment"
+      ],
+      "evidence_of": [
+        "Government digital delivery",
+        "Intranet project management",
+        "Business requirements gathering",
+        "Functional specification writing",
+        "Cross-browser testing",
+        "Information management"
+      ]
+    },
+    {
+      "company": "Bank of South Australia / St George Bank",
+      "role": "Business Analyst and Development Manager",
+      "years": "January 1997 – November 1999",
+      "summary": "Worked on retail banking process analysis, information architecture, testing, training and national rollout of a mortgage preparation document-processing application in Australia.",
+      "highlights": [
+        "Researched retail banking processes and business requirements in Australia.",
+        "Analysed requirements and designed the information architecture for an MS Excel-based mortgage preparation document-processing application.",
+        "Created comprehensive pan-state system testing plans and scripts with complete audit trails due to legal prerequisites.",
+        "Following successful implementation in South Australia, managed Australia-wide testing, training and rollout of the application."
+      ],
+      "evidence_of": [
+        "Business analysis",
+        "Retail banking process design",
+        "Information architecture",
+        "Legally auditable testing",
+        "Training and rollout",
+        "Financial services experience"
+      ]
+    },
+    {
+      "company": "Office of Passenger Rail Franchising",
+      "role": "Franchise Administrator – Senior Executive Officer",
+      "years": "June 1995 – November 1996",
+      "summary": "Worked within a UK government rail agency on incentive-regime systems, Train Operating Company liaison and payment and penalty calculations linked to rail franchising.",
+      "highlights": [
+        "Developed an Interim Incentive Regime System using MS Excel for each UK Train Operating Company, based on legislative, legal and technical specifications.",
+        "Created systems used to calculate interim payments and penalties worth approximately £1 billion before Railtrack and British Rail mainframe-based calculation methods were developed.",
+        "Managed a project team and became a key liaison point for Train Operating Companies and the UK passenger rail industry regarding the Incentive Regime System."
+      ],
+      "government_experience": [
+        "Office of Passenger Rail Franchising",
+        "UK rail franchising and Train Operating Company liaison",
+        "Legislative and legal specification-based system development"
+      ],
+      "evidence_of": [
+        "Government experience",
+        "Rail industry experience",
+        "Legislative and technical specification work",
+        "Spreadsheet-based system development",
+        "Project team management",
+        "Industry stakeholder liaison"
+      ]
+    },
+    {
+      "company": "Office for Standards in Education",
+      "role": "Statistical Analyst – Information Department Manager",
+      "years": "February 1993 – March 1995",
+      "summary": "Worked in a new UK government department analysing requirements, designing inspection-related processes and preparing parliamentary and press-facing school inspection statistics.",
+      "highlights": [
+        "Analysed requirements for a new government department and designed new processes and forms for school inspection and reporting.",
+        "Managed a small team responsible for drafting answers to Parliamentary Questions from the Houses of Parliament.",
+        "Prepared statistics on the progress of school inspections for national press and public reporting."
+      ],
+      "government_experience": [
+        "Office for Standards in Education",
+        "School inspection reporting",
+        "Parliamentary Question support",
+        "National press statistics"
+      ],
+      "evidence_of": [
+        "Government experience",
+        "Requirements analysis",
+        "Information management",
+        "Statistical reporting",
+        "Process design",
+        "Team management"
+      ]
+    },
+    {
+      "company": "Tiphook Container Rental – Tank Division",
+      "role": "Maintenance, Repair and Quality Controller",
+      "years": "February 1991 – November 1992",
+      "summary": "Managed maintenance, repair, quality control and customer liaison for leased nautical tank containers across international depots and offices.",
+      "highlights": [
+        "Liaised with blue-chip customers including Nedlloyd and P&O at lease-end of nautical tank container rentals.",
+        "Negotiated invoicing and coordinated repair activity with worldwide depots and offices across the USA, South America, Australasia, Asia and Europe.",
+        "Managed quality control around maintenance and repair processes in an international operational environment."
+      ],
+      "evidence_of": [
+        "Quality control",
+        "International operations",
+        "Customer liaison",
+        "Negotiation",
+        "Process coordination",
+        "Operational problem-solving"
       ]
     },
     {
@@ -470,7 +693,6 @@
         "ITV",
         "Sky",
         "Lloyds Bank",
-        "Cable & Wireless",
         "British Airways",
         "BUPA",
         "Mars Petcare",
@@ -493,7 +715,9 @@
     "Helped design early video-on-demand work that contributed to ITV Player and later BritBox-related services",
     "Led UX and IA for SRF Switzerland’s award-winning national broadcaster redesign",
     "Mapped, planned and walked the 645-mile Lowestoft to Land’s End route",
-    "Built and explored AI-assisted workflows for portfolio and application support"
+    "Built and explored AI-assisted workflows for portfolio and application support",
+    "Managed Cable & Wireless global QA and testing across 18 websites in 10 languages",
+    "Worked on UK government and public-sector digital, intranet, reporting and testing projects across SRA, OPRAF, OFSTED, DWP, Department of Health, LSC and Skills Funding Agency"
   ],
   "testimonials": [
     {
