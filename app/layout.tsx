@@ -1,5 +1,6 @@
 import "./globals.css";
 import React, { ReactNode } from "react";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata = {
   title: "Ed Birchmore’s AI Career Agent",
@@ -16,6 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="min-h-screen bg-gray-50 text-gray-900">
         {children}
+        <Analytics />
       </body>
     </html>
   );
